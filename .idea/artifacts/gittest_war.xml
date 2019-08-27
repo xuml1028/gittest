@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gittest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gittest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gittest.war">
+      <element id="artifact" artifact-name="gittest:war exploded" />
+    </root>
+  </artifact>
+</component>
